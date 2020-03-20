@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASPCORE.Controllers
@@ -41,6 +42,18 @@ namespace ASPCORE.Controllers
         public IActionResult Pessoa(string nome, int idade)
         {
             return Content($"Olá {nome}!!! Você tem {idade} anos de idade");
+        }
+
+        [HttpGet("fone")]
+        public IActionResult Fone()
+        {
+
+            // Example.: https://localhost:5001/painel/admin/fone?ddd=92&fone=7894-4563
+            
+            int    ddd  = Convert.ToInt32(Request.Query["ddd"]);
+            string fone = Request.Query["fone"];
+           
+            return Content($"Seu telefone para contato é : ({ddd}) {fone}");
         }
     }
 
