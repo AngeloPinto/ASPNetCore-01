@@ -64,6 +64,12 @@ namespace ASPCORE.Controllers
             return View();
         }
 
+        [HttpGet("ops")]
+        public IActionResult Ops() 
+        {
+            return View("nada");
+        }
+
     } // CLASS
 
 } // NAMESPACE

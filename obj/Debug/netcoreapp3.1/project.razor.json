@@ -20521,6 +20521,11 @@
   "RootNamespace": "ASPCORE",
   "Documents": [
     {
+      "FilePath": "c:\\Projects\\Visual Studio\\CSharp\\ASPCORE\\Views\\Admin\\nada.cshtml",
+      "TargetPath": "Views\\Admin\\nada.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Projects\\Visual Studio\\CSharp\\ASPCORE\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
