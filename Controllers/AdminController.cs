@@ -18,10 +18,17 @@ namespace ASPCORE.Controllers
             return Content("Resultado do teste");
         }
 
-        [HttpGet("nome/{nome}")]
-        public IActionResult Nome(string nome) 
+        [HttpGet("nome/{nome:?}")]
+        public IActionResult Nome(string nome = "")
         {
-            return Content("Olá " + nome + "!!!");
+            if (!nome.Equals("")) 
+            {
+                return Content("Olá " + nome + "!!!");
+            } else 
+            {
+                return Content("Você não informou seu nome :(");
+            }
+            
         }
 
         [HttpGet("idade/{idade:int}")]
