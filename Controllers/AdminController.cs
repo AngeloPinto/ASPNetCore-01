@@ -1,5 +1,6 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Primitives;
 
 namespace ASPCORE.Controllers
 {
@@ -68,6 +69,24 @@ namespace ASPCORE.Controllers
         public IActionResult Ops() 
         {
             return View("nada");
+        }
+
+        [HttpGet("formulario")]
+        public IActionResult Formulario() 
+        {
+            return View();
+        }
+
+        [HttpPost("cadastrar")]
+        public IActionResult Cadastrar()
+        {
+            StringValues nome;
+            StringValues email;
+
+            Request.Form.TryGetValue("nome" , out nome);
+            Request.Form.TryGetValue("email", out email);
+
+            return Content($"Formulário Enviado: nome: {nome} | e-mail: {email}");
         }
 
     } // CLASS

@@ -37,3 +37,4 @@ C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\ASPCORE.genrunt
 C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\ASPCORE.csproj.CopyComplete
 C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Admin\visualizar.cshtml.g.cs
 C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Admin\nada.cshtml.g.cs
+C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Admin\formulario.cshtml.g.cs

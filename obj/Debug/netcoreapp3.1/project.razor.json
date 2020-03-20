@@ -20564,6 +20564,11 @@
       "FilePath": "c:\\Projects\\Visual Studio\\CSharp\\ASPCORE\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\Visual Studio\\CSharp\\ASPCORE\\Views\\Admin\\formulario.cshtml",
+      "TargetPath": "Views\\Admin\\formulario.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
