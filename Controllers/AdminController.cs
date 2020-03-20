@@ -17,6 +17,12 @@ namespace ASPCORE.Controllers
         {
             return Content("Resultado do teste");
         }
+
+        [HttpGet("nome/{nome}")]
+        public IActionResult Nome(string nome) 
+        {
+            return Content("Olá " + nome + "!!!");
+        }
     }
 
 }
