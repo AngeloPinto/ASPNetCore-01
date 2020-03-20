@@ -23,6 +23,12 @@ namespace ASPCORE.Controllers
         {
             return Content("Olá " + nome + "!!!");
         }
+
+        [HttpGet("idade/{idade:int}")]
+        public IActionResult Idade(int idade)
+        {
+            return Content("Sua idade é : " + idade);
+        }
     }
 
 }
