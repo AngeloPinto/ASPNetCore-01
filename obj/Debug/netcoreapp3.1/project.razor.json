@@ -20536,6 +20536,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Projects\\Visual Studio\\CSharp\\ASPCORE\\Views\\Admin\\visualizar.cshtml",
+      "TargetPath": "Views\\Admin\\visualizar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Projects\\Visual Studio\\CSharp\\ASPCORE\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"

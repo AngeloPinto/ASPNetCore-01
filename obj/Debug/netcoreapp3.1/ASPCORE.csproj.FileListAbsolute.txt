@@ -35,3 +35,4 @@ C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\ASPCORE.dll
 C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\ASPCORE.pdb
 C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\ASPCORE.genruntimeconfig.cache
 C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\ASPCORE.csproj.CopyComplete
+C:\Projects\Visual Studio\CSharp\ASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Admin\visualizar.cshtml.g.cs

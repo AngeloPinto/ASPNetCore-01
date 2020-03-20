@@ -55,6 +55,15 @@ namespace ASPCORE.Controllers
            
             return Content($"Seu telefone para contato é : ({ddd}) {fone}");
         }
-    }
 
-}
+
+        [HttpGet("visualizar/{nome?}")]
+        public IActionResult Visualizar(string nome = "") 
+        {
+            ViewData["nome"] = nome;
+            return View();
+        }
+
+    } // CLASS
+
+} // NAMESPACE
